@@ -35,20 +35,27 @@
 // Example:
 // Input: toSentenceCase('we are neoGrammers') ––> Output: We Are NeoGrammers
 
-// String.prototype.replaceAt = function(index, replacement) {
-//     return this.substr(0, index) + replacement + this.substr(index + replacement.length);
-// }
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substr(0, index) + replacement + this.substr(index + replacement.length);
+}
 
-// function toSentenceCase(sentence){
-//     let sentenceArr = sentence.split(" ")
-//     let capWordArr = []
-//     for(word of sentenceArr){
-//      capWord = word.charAt(0).toUpperCase()
-//     //  console.log(word)
-//     let repWord = word.replaceAt(0,capWord)
-//     capWordArr.push(repWord)
-//     } 
-//  console.log(capWordArr.toString().replace(/,/g,' '))
-// }
+function toSentenceCase(sentence){
+    let sentenceArr = sentence.split(" ")
+    let capWordArr = []
+    let callback = {
+        name : "sahil",
+        func(){
+            console.log(this)
+        }
+    }
+    callback.func()
+    for(word of sentenceArr){
+     capWord = word.charAt(0).toUpperCase()
+    //  console.log(word)
+    let repWord = word.replaceAt(0,capWord)
+    capWordArr.push(repWord)
+    } 
+ console.log(capWordArr.toString().replace(/,/g,' '))
+}
 
-// toSentenceCase('my name is sahil')
+toSentenceCase('my name is sahil')
