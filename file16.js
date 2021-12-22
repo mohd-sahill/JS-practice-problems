@@ -32,24 +32,58 @@
 
 // Write a program to delete all vowels from a string. Assume string is not more than 80 characters long
 
-let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
-let checkVow = (string) => {
-  let result = "";
-  for (i = 0; i <= string.length - 1; i++) {
-    if (!vowels.includes(string[i])) {
-      result += string[i];
-    }
-  }
-  return result
-};
+// let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+// let checkVow = (string) => {
+//   let result = "";
+//   for (i = 0; i <= string.length - 1; i++) {
+//     if (!vowels.includes(string[i])) {
+//       result += string[i];
+//     }
+//   }
+//   return result
+// };
 
-let filter = checkVow("sahil");
-console.log(filter)
+// let filter = checkVow("sahil");
+// console.log(filter)
 
 // Write a program to check whether the string is alphanumeric or not , eg:batman@45 contains digit 45
 
+// let checkNum = (string) => {
+//   for(char of string){
+//     if(!isNaN(parseFloat(char)) && isFinite(char)){
+//       console.log(`contains digit: ${char}`)
+//     }
+//   }
+// }
+// let string = "sahil"
+// checkNum("mohammedsahil6902@gmail.com")
+
+// console.log(isNaN(string));
+
+
 // A program that reads three strings and prints the longest and smallest one
 
+let str1 = "hey hi afafafadf adgadgad ga gadg"
+let str2 = "hello mr sahil you are hot"
+let str3 = "heyfasfasfasfasfasfasfasfaffafafaff assd"
+
+function checkLen(str1,str2,str3){
+  let s1 ,s2 , s3;
+  s1 = str1.length
+  s2 = str2.length
+  s3 = str3.length
+
+  if(s1>s2 && s1>s3){
+    console.log(s1 + ":string 1 is longest");
+  }else if(s2>s3 && s2>s1){
+    console.log(s2 + ":string 2 is longest");
+  }else if(s3>s1 && s3>s2){
+    console.log(s3 + ":string 3 is longest");
+  }
+}
+
+checkLen(str1,str2,str3)
+ 
 // A program that counts number of vowels and consonants in a String?
 
 // Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
