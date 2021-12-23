@@ -48,15 +48,15 @@
 
 // Write a program to check whether the string is alphanumeric or not , eg:batman@45 contains digit 45
 
-let checkNum = (string) => {
-  for(char of string){
-    if(!isNaN(parseFloat(char)) && isFinite(char)){
-      console.log(`contains digit: ${char}`)
-    }
-  }
-}
-let string = "sahil"
- checkNum("mohammedsahil6902@gmail.com")
+// let checkNum = (string) => {
+//   for(char of string){
+//     if(!isNaN(parseFloat(char)) && isFinite(char)){
+//       console.log(`contains digit: ${char}`)
+//     }
+//   }
+// }
+// let string = "sahil"
+//  checkNum("mohammedsahil6902@gmail.com")
 
 
 // A program that reads three strings and prints the longest and smallest one
@@ -134,7 +134,14 @@ let string = "sahil"
 
 // For a given input string(str), write a function to print all the possible substrings.Without using substr method
 
+let a = 5;
+let b = 5;
 
+if(a===b){
+  console.log(true);
+}else{
+  console.log(false);
+}
 
 // Write a program that removes the time from the given date string "Wed April 15, 7pm". It should return only the date without the time.
 
