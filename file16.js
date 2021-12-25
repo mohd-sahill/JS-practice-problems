@@ -134,17 +134,10 @@
 
 // For a given input string(str), write a function to print all the possible substrings.Without using substr method
 
-let a = 5;
-let b = 5;
-
-if(a===b){
-  console.log(true);
-}else{
-  console.log(false);
-}
 
 // Write a program that removes the time from the given date string "Wed April 15, 7pm". It should return only the date without the time.
 
 // Write a program that masks all but last four characters of the string "5565534276455423" to '#'
 
 // Given a string "tic tac toe is a fun game" convert the first 6 characters to capital case
+
