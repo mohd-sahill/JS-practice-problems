@@ -132,12 +132,31 @@
 
 // checkPel("dad")
 
-// For a given input string(str), write a function to print all the possible substrings.Without using substr method
+//String advance questions
 
+//Q1 Given an input string S and two characters c1 and c2, you need to replace every occurrence of character c1 with character c2 in the given string
 
-// Write a program that removes the time from the given date string "Wed April 15, 7pm". It should return only the date without the time.
+// function replaceChar(string,c1,c2){
+//     let fStr = []
+//     for(char of string){
+//       if(char === c1){
+//           fStr.push(c2)
+//       }else{
+//           fStr.push(char)
+//       }
+//     }
+//     return fStr.toString().replace(/,/g,"")
+// }
 
-// Write a program that masks all but last four characters of the string "5565534276455423" to '#'
+// let res = replaceChar("sahil","s","j")
+// console.log(res);
 
-// Given a string "tic tac toe is a fun game" convert the first 6 characters to capital case
+// Given an input string S that contains multiple words, you need to remove all the spaces present in the input string. There can be multiple spaces present after any word
 
+// Reverse the given string word wise. That is, the last word in given string should come at 1st place, last second word at 2nd place and so on. Individual words should remain as it is. example: Input : Welcome to NeoG Camp → Camp NeoG to Welcome
+
+// A program that counts the value of each character and prints the most repeated character?
+
+// Write a program to toggle case of each character of the string "good afternoon" (example: "neogcamp" ⇒ "nEoGcAmP" )
+
+// Given a string "how was your day?" and a word "how", write a program that removes the occurrence of the specified word from given sentence. ( input: string⇒"programming camp are amazing",word⇒ "programming"; output:" camp are amazing")
