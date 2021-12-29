@@ -153,7 +153,17 @@
 
 // Given an input string S that contains multiple words, you need to remove all the spaces present in the input string. There can be multiple spaces present after any word
 
+// let replaceSpace = string => string.replace(/ /g,"")
+// let res = replaceSpace("hey my name is sahil")
+// console.log(res);
+
 // Reverse the given string word wise. That is, the last word in given string should come at 1st place, last second word at 2nd place and so on. Individual words should remain as it is. example: Input : Welcome to NeoG Camp → Camp NeoG to Welcome
+
+// let rev = string => {
+//   let filterStr = string.split(" ")
+//   return filterStr.reverse().toString()
+// }
+// console.log(rev("hey my name is sahil"));
 
 // A program that counts the value of each character and prints the most repeated character?
 
