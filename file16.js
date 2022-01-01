@@ -58,7 +58,6 @@
 // let string = "sahil"
 //  checkNum("mohammedsahil6902@gmail.com")
 
-
 // A program that reads three strings and prints the longest and smallest one
 
 // let str1 = "hey hi afafafadf adgadgad ga gadg";
@@ -166,7 +165,23 @@
 // console.log(rev("hey my name is sahil"));
 
 // A program that counts the value of each character and prints the most repeated character?
+// var getMax = function (str) {
+//   var max = 0,
+//     maxChar = "";
+//   str.split("").forEach(function (char) {
+//     if (str.split(char).length > max) {
+//       max = str.split(char).length;
+//       maxChar = char;
+//     }
+//   });
+//   return maxChar;
+// };
+// let res = getMax("sahilll")
+// console.log(res);
+
 
 // Write a program to toggle case of each character of the string "good afternoon" (example: "neogcamp" ⇒ "nEoGcAmP" )
+
+
 
 // Given a string "how was your day?" and a word "how", write a program that removes the occurrence of the specified word from given sentence. ( input: string⇒"programming camp are amazing",word⇒ "programming"; output:" camp are amazing")
