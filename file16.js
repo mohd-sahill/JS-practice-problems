@@ -179,9 +179,43 @@
 // let res = getMax("sahilll")
 // console.log(res);
 
-
 // Write a program to toggle case of each character of the string "good afternoon" (example: "neogcamp" ⇒ "nEoGcAmP" )
 
+// function toggleChar(string) {
+//   let newStr = ""
+//   for(i=0;i<=string.length-1;i++){
+//     if(i%2==0){
+//       newStr += string[i].toUpperCase()
+//     }else{
+//       newStr += string[i].toLowerCase()
+//     }
+//   }
+//   console.log(newStr);
+// }
 
+// toggleChar("mohammed");
+
+//Modern JS solution
+
+// let toggleChar = string => string.split("").map((lett,i) => i%2==0 ? lett.toUpperCase(): lett.toLowerCase())
+
+// let res = toggleChar("mohammed");
+// console.log(res.toString().replace(/,/g,""));
 
 // Given a string "how was your day?" and a word "how", write a program that removes the occurrence of the specified word from given sentence. ( input: string⇒"programming camp are amazing",word⇒ "programming"; output:" camp are amazing")
+
+//made some changes to the code now it filteres out bad words
+
+function remWord(sentence,word){
+let ans = sentence.split(" ").map(item => {
+  if(item !== word){
+    return item
+  }else{
+    return "*****"
+  }
+  // console.log(item != word);
+})
+console.log(ans.toString().replace(/,/g," "));
+}
+
+remWord("hello you prick" , "prick")
