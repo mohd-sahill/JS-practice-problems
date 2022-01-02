@@ -165,6 +165,7 @@
 // console.log(rev("hey my name is sahil"));
 
 // A program that counts the value of each character and prints the most repeated character?
+
 // var getMax = function (str) {
 //   var max = 0,
 //     maxChar = "";
@@ -206,16 +207,16 @@
 
 //made some changes to the code now it filteres out bad words
 
-function remWord(sentence,word){
-let ans = sentence.split(" ").map(item => {
-  if(item !== word){
-    return item
-  }else{
-    return "*****"
-  }
-  // console.log(item != word);
-})
-console.log(ans.toString().replace(/,/g," "));
-}
+// function remWord(sentence,word){
+// let ans = sentence.split(" ").map(item => {
+//   if(item !== word){
+//     return item
+//   }else{
+//     return "*****"
+//   }
+//   // console.log(item != word);
+// })
+// console.log(ans.toString().replace(/,/g," "));
+// }
 
-remWord("hello you prick" , "prick")
+// remWord("hello you prick" , "prick")
