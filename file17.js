@@ -44,7 +44,7 @@
 
 // findMinMax(arr)
 
-// Find Median and Mode of an array.
+//Q3 Find Median of an array.
 
 // Median : (N+1/2)th term.
 // Mode : Most repeating term
@@ -67,11 +67,48 @@
 // };
 // findMedian(arr);
 
-// console.log(res);
-// Find sum of two arrays.
+//Q4. Find sum of two arrays.
 // [3,5,2,9,4] = 3+5+2+9+4 = 23
 // [6,2,8,1,3] = 6+2+8+1+3 = 20
 // Final Output : 20+23 = 43
-// Find number of constants and vowels in a string.
+
+
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [1,2,3,4,5]
+// let arr3 = [1,2,3,4,5]
+
+// let sumMultArr = (ar1,ar2) => {
+//     let sumAr1 = 0
+//     let sumAr2 = 0
+//  ar1.map(num => {
+//     sumAr1 += num
+//  })
+//  ar2.map(num => {
+//     sumAr2 += num
+//  })
+//  console.log(`the sum of this 2 array is ${sumAr1+sumAr2}`);
+// }
+
+//efficient solution for infinite array parameters
+// let sumMultArr = (...arr) => {
+//     let sum = 0
+//     arr.map((item) => {
+//         item.reduce((initialValue,currentValue) => {
+//         sum += currentValue
+//         },0)
+//     })
+//     console.log(sum);
+// }
+// sumMultArr(arr1,arr2,arr3)
+
+
 // Shift an array by X to right.
 // Example [1,2,3,4,5] after shifting to right [5,1,2,3,4]
+// let arr = [1,2,3,4,5]
+// function shifArr(array,x){
+// let res = array.splice(-x).concat(arr)
+// console.log(res);
+// }
+
+// shifArr(arr,3)
+
