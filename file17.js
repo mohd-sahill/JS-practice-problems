@@ -113,19 +113,44 @@
 
 // Find the sum of two matrix.
 
-let matrix1 = [
-  [1, 1, 1],
-  [1, 1, 1],
-  [1, 1, 1],
-];
+// let matrix1 = [
+//   [1, 1, 1],
+//   [1, 1, 1],
+//   [1, 1, 1],
+// ];
 
-let matrix2 = [
-  [3, 3, 3],
-  [4, 3, 3],
-  [3, 1, 3],
-];
+// let matrix2 = [
+//   [3, 3, 3],
+//   [4, 3, 3],
+//   [1, 1, 1],
+// ];
 
+// let sumArr = (array1, array2) => {
+//     let sumArray = [[],[],[]]
 
+//     //check whethear the matrix is valid
+//   if (matrix1.length > matrix2.length && matrix1.length > matrix2.length) {
+//     console.log("not a valid matrix to add");
+//   }else{
+//     //start looping though first dimension of array
+//       for(i=0;i<=array1.length-1 && i<= array2.length-1;i++){
+//           console.log(i);
+//          //target each index of the particuler array
+//           for(j=0;j<=array1.length-1 && j<= array2.length-1;j++){          
+//               console.log(j)
+//         //store the targeted index value in a variable
+//              let addNum1 = array1[i][j]
+//              let addNum2 = array2[i][j]
+//         //push the added value to the empty array
+//             sumArray[i].push(addNum1+addNum2)
+//           }
+//       }
+//   }
+//   for(arr of sumArray){
+//       console.log(arr);
+//   }
+// };
+// sumArr(matrix1, matrix2);
 
 // console.log(matrix1);
 
