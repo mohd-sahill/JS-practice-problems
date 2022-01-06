@@ -49,7 +49,6 @@
 // Median : (N+1/2)th term.
 // Mode : Most repeating term
 
-
 // let arr = [157, 158, 158, 159, 160, 160, 162, 165, 166, 167, 170];
 // let findMedian = (arr) => {
 //   let ascArr = [];
@@ -71,7 +70,6 @@
 // [3,5,2,9,4] = 3+5+2+9+4 = 23
 // [6,2,8,1,3] = 6+2+8+1+3 = 20
 // Final Output : 20+23 = 43
-
 
 // let arr1 = [1,2,3,4,5]
 // let arr2 = [1,2,3,4,5]
@@ -101,7 +99,6 @@
 // }
 // sumMultArr(arr1,arr2,arr3)
 
-
 // Shift an array by X to right.
 // Example [1,2,3,4,5] after shifting to right [5,1,2,3,4]
 // let arr = [1,2,3,4,5]
@@ -112,3 +109,25 @@
 
 // shifArr(arr,3)
 
+// ADVANCE
+
+// Find the sum of two matrix.
+
+let matrix1 = [
+  [1, 1, 1],
+  [1, 1, 1],
+  [1, 1, 1],
+];
+
+let matrix2 = [
+  [3, 3, 3],
+  [4, 3, 3],
+  [3, 1, 3],
+];
+
+
+
+// console.log(matrix1);
+
+// Display transpose of matrix. Explaination https://www.varsitytutors.com/linear_algebra-help/the-transpose
+// Find Identity matrix. Explanation https://www.varsitytutors.com/hotmath/hotmath_help/topics/identity-matrix
