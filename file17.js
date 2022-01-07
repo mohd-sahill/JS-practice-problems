@@ -154,5 +154,6 @@
 
 // console.log(matrix1);
 
+//the area of matrix problem
 // Display transpose of matrix. Explaination https://www.varsitytutors.com/linear_algebra-help/the-transpose
 // Find Identity matrix. Explanation https://www.varsitytutors.com/hotmath/hotmath_help/topics/identity-matrix
