@@ -154,6 +154,32 @@
 
 // console.log(matrix1);
 
-//the area of matrix problem
 // Display transpose of matrix. Explaination https://www.varsitytutors.com/linear_algebra-help/the-transpose
-// Find Identity matrix. Explanation https://www.varsitytutors.com/hotmath/hotmath_help/topics/identity-matrix
+
+// let matrix = [
+//     [5,4,9],
+//     [8,4,2],
+//     [0,9,5]
+// ]
+
+// let transporse = (mat) => {
+//     let resultMat = [[],[],[]]
+//     //loop over the array
+//     for(i=0;i<=mat.length-1;i++){
+//         //then loop over the inner element
+//         for(j=0;j<=mat[i].length-1;j++){
+//             //pushes the inner elements value based on thier position
+//             // like first iteration of J loop will store
+//             //1.resultMat = [[5]]
+//             //              [[4]]
+//             //              [[9]]...so on
+//             resultMat[j].push(mat[i][j])
+//             console.log(resultMat[j]);
+//         }
+//     }
+//     console.log(resultMat);
+//     // console.log(resultMat[]);
+// }
+// transporse(matrix)
+
+
